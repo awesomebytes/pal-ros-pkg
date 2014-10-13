@@ -1,0 +1,17 @@
+# to be merged upstream
+- git: {local-name: ros_controllers, uri: 'https://github.com/pal-robotics/ros_controllers', version: 'reemc-sim-0.1'}
+- git: {local-name: ros_control, uri: 'https://github.com/pal-robotics/ros_control', version: 'reemc-sim-0.1'}
+- git: {local-name: gazebo_ros_pkgs, uri: 'https://github.com/pal-robotics/gazebo_ros_pkgs', version: 'hydro-devel'}
+
+# original work
+- git: {local-name: play_motion, uri: 'https://github.com/pal-robotics/play_motion', version: 'hydro-devel'}
+- git: {local-name: joy_teleop, uri: 'https://github.com/pal-robotics/joy_teleop', version: 'reemc-sim-0.1'}
+- git: {local-name: pal_msgs, uri: 'https://github.com/pal-robotics/pal_msgs', version: 'hydro-devel'}
+- git: {local-name: tf_lookup, uri: 'https://github.com/pal-robotics/tf_lookup', version: 'master'}
+
+# REEM-C packages
+- git: {local-name: reemc_robot, uri: 'https://github.com/pal-robotics/reemc_robot', version: 'public_sim'}
+- git: {local-name: reemc_simulation, uri: 'https://github.com/pal-robotics/reemc_simulation', version: 'prepare_public_sim'}
+- git: {local-name: reemc_moveit_config, uri: 'https://github.com/pal-robotics/reemc_moveit_config', version: 'master'}
+- git: {local-name: pal_gazebo_plugins, uri: 'https://github.com/pal-robotics/pal_gazebo_plugins', version: 'hydro-devel'}
+- git: {local-name: head_action, uri: 'https://github.com/pal-robotics/head_action', version: 'master'}
